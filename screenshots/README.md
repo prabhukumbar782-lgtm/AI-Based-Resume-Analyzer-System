@@ -1,10 +1,10 @@
 ## 📸 Screenshots
 
 ### Main Window
-![Main Window](screenshots/main-window.png)
+![Main Window](screenshots/"C:\Users\kumba\OneDrive\Pictures\main-window.png")
 
 ### Analysis Result
-![Analysis Result](screenshots/analysis-result.png)
+![Analysis Result](screenshots/"C:\Users\kumba\OneDrive\Pictures\analysis-result.png")
 
 ### Score Dashboard
-![Score Dashboard](screenshots/score-dashboard.png)
+![Score Dashboard](screenshots/"C:\Users\kumba\OneDrive\Pictures\score-dashboard.png")
