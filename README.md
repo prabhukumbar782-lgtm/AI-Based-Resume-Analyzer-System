@@ -6,7 +6,6 @@ The AI-Based Resume Analyzer System is a Java Swing-based desktop application th
 
 By comparing resume content with industry-specific job requirements, the application provides role-based scoring, ATS (Applicant Tracking System) compatibility analysis, skill gap identification, strengths and weaknesses assessment, and personalized recommendations. The goal is to assist users in creating professional, job-ready resumes that increase their chances of securing interviews and career opportunities.
 
----
 
 ## 🚀 Key Features
 
@@ -20,8 +19,6 @@ By comparing resume content with industry-specific job requirements, the applica
 - Interactive Score Visualization
 - User-Friendly Java Swing Interface
 
----
-
 ## 🛠 Technologies Used
 
 - Java 11+
@@ -32,7 +29,6 @@ By comparing resume content with industry-specific job requirements, the applica
 - File Handling
 - Custom UI Components
 
----
 
 ## 📊 Supported Job Roles
 
@@ -45,7 +41,6 @@ By comparing resume content with industry-specific job requirements, the applica
 - Android Developer
 - Machine Learning Engineer
 
----
 
 ## ▶️ How to Run
 
@@ -72,7 +67,6 @@ chmod +x run.sh
 ./run.sh
 ```
 
----
 
 ## 🎯 Learning Outcomes
 
@@ -84,7 +78,6 @@ This project demonstrates practical implementation of:
 - ATS Compatibility Evaluation
 - Software Design using OOP Principles
 
----
 
 ## 👨‍💻 Author
 
@@ -92,7 +85,6 @@ This project demonstrates practical implementation of:
 
 Computer Science and Engineering Student
 
----
 
 ## 📄 License
 
