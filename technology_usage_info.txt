@@ -1,0 +1,30 @@
+Resume Analyzer System - Technology Usage Info
+=============================================
+
+1. JSP (JavaServer Pages)
+-------------------------
+JSP is NOT used in this project. This is a desktop application, not a web application. There are no .jsp files, no servlets, and no web server involved. JSP is designed for web/browser-based Java apps, whereas this project uses Java Swing for its user interface.
+
+2. Java Swing — Used for the entire UI (in src/com/resumeanalyzer/ui/)
+----------------------------------------------------------------------
+Swing is the GUI framework used to build this desktop app. Here is where it's used:
+
+* MainWindow.java: The main application window. It extensively uses Swing components like JFrame, JPanel, JTextArea, JButton, JComboBox, JLabel, JScrollPane, JSplitPane, and JTabbedPane to build the main layout.
+* ResultsPanel.java: Displays the analysis results using various Swing panels.
+* AnimatedProgressBar.java: A custom animated progress bar created using Swing components.
+* ScoreGauge.java: A custom score gauge widget drawn using Swing graphics APIs (Graphics2D).
+
+3. String — Used everywhere across all files
+--------------------------------------------
+`String` is Java's built-in text type and is fundamental to the application's logic. Key usages include:
+
+* Resume.java (Model): Stores candidate information such as rawText, candidateName, email, and phone as String fields.
+* ResumeParser.java (Analyzer): Parses the raw resume text. It reads, splits, and processes String content to extract information.
+* ScoringEngine.java (Analyzer): Relies heavily on Strings. Uses String.format() to build summaries, String.join() for skill lists, and toLowerCase() for case-insensitive text comparisons.
+* MainWindow.java (UI): Reads file content into a String, handles file paths as Strings, and passes the extracted resume text as a String to the analyzer.
+* AnalysisResult.java (Model): Stores the generated summary, grade, jobRole, and atsCompatibility as String fields.
+
+Summary:
+- JSP: Not used (Desktop app, not Web).
+- Swing: Used in all 4 UI files to build the graphical interface.
+- String: Used in every single file for handling text data, which is the core of a resume analyzer.

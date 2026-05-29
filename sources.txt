@@ -1,0 +1,9 @@
+src/com/resumeanalyzer/Main.java
+src/com/resumeanalyzer/analyzer/ResumeParser.java
+src/com/resumeanalyzer/analyzer/ScoringEngine.java
+src/com/resumeanalyzer/model/AnalysisResult.java
+src/com/resumeanalyzer/model/Resume.java
+src/com/resumeanalyzer/ui/AnimatedProgressBar.java
+src/com/resumeanalyzer/ui/MainWindow.java
+src/com/resumeanalyzer/ui/ResultsPanel.java
+src/com/resumeanalyzer/ui/ScoreGauge.java
